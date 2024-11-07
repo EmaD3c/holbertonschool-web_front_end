@@ -48,7 +48,8 @@ a {
   text-decoration: none;
   font-style: normal;
 }
-.a:visited {
+
+a:visited {
   font-style: italic;
 }
 
