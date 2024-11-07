@@ -46,7 +46,11 @@ body {
 a {
   color: var(--text-color);
   text-decoration: none;
-  font-style: normal;
+}
+
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 a:visited {
