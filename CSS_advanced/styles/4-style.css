@@ -19,18 +19,21 @@ body {
 }
 
 a {
-  color: var(--text-color); /* Use text-color variable */
+  color: var(--text-color);
 }
 
 .visually-hidden {
   display: none;
 }
 
-.card-category,
+.card-category {
+  color: var(--color-primary);
+}
+
 .section-tagline {
-  color: var(--color-primary); /* Use primary color variable */
+  color: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title); /* Set font-family for all heading tags */
+  font-family: var(--font-family-title);
 }
