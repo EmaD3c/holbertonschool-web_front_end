@@ -48,9 +48,14 @@ body {
 a {
   color: var(--text-color);
   text-decoration: none;
-  font-style: normal;
 }
-.a:visited {
+
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:visited {
   font-style: italic;
 }
 
