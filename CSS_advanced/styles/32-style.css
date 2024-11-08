@@ -66,7 +66,6 @@
 
   --transition-duration: .3s;
   --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
-  --transition-property: color, background-color;
 
 }
 
@@ -305,7 +304,7 @@ ul.row {
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
   transition-duration: var(--transition-duration);
-  transition: var(--transition-property);
+  transition-property: color, background-color;
 }
 
 .card-testimonial {
@@ -429,5 +428,4 @@ ul.row {
 
 .card-work:hover .card-outer {
   transform: scale(0.95);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
